@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaFileAlt } from 'react-icons/fa';
 import './App.css';
 
 const AppContainer = styled.div`
@@ -389,6 +389,17 @@ function App() {
           >
             <FaExternalLinkAlt />
             linkedin
+          </SocialLink>
+
+          <SocialLink
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <FaFileAlt />
+            resume
           </SocialLink>
         </LinksContainer>
       </MainContent>
