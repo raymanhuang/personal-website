@@ -392,7 +392,7 @@ function App() {
           </SocialLink>
 
           <SocialLink
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1FQoOFqMVzb_Nk52kl8EO-bJHrzJd2OcV/preview"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
